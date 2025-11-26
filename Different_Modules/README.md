@@ -1,7 +1,7 @@
 # Different Node.js Modules Practice
 
 This folder contains practice scripts and explorations of various Node.js core modules: `fs`, `path`, `os`, and `crypto`.  
-Below are the methods explored with their parameters and purpose.
+Below are the methods explored with their parameters, purpose and example.
 
 ---
 
