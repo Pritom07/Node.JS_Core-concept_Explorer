@@ -1,0 +1,10 @@
+const crypto = require("crypto");
+const password = "pass123";
+const md5 = crypto.createHash("md5").update(password).digest("hex");
+const sha1 = crypto.createHash("sha1").update(password).digest("hex");
+const sha256 = crypto.createHash("sha256").update(password).digest("hex");
+const sha512 = crypto.createHash("sha512").update(password).digest("hex");
+console.log(`MD5 : ${md5}`);
+console.log(`SHA1 : ${sha1}`);
+console.log(`SHA256 : ${sha256}`);
+console.log(`SHA512 : ${sha512}`);

@@ -1,0 +1,35 @@
+const categories = {
+  image: [".jpg", ".jpeg", ".png", ".gif", ".webp", ".bmp", ".tiff", ".svg"],
+  video: [".mp4", ".mkv", ".mov", ".avi", ".webm", ".flv", ".wmv"],
+  audio: [".mp3", ".wav", ".aac", ".flac", ".ogg", ".m4a"],
+  document: [".pdf", ".doc", ".docx", ".xls", ".xlsx", ".ppt", ".pptx", ".csv"],
+  archive: [".zip", ".rar", ".7z", ".tar", ".gz"],
+  code: [".js", ".ts", ".jsx", ".cpp", ".c"],
+  model: [".fbx", ".obj", ".glb", ".gltf", ".stl"],
+  font: [".ttf", ".otf", ".woff", ".woff2"],
+  text: [".txt", ".md", ".log", ".json", ".yaml", ".xml"],
+};
+
+const files = [
+  "profile.jpg",
+  "logo.png",
+  "movie.mp4",
+  "music.mp3",
+  "report.pdf",
+  "backup.zip",
+  "app.js",
+  "character.fbx",
+  "Roboto.ttf",
+  "readme.txt",
+  "resume.docx",
+  "presentation.pptx",
+  "data.csv",
+  "script.ts",
+  "driver.c",
+  "lecture.mkv",
+  "tutorial.webm",
+  "notes.md",
+  "config.json",
+  "car.obj",
+];
+module.exports = { categories, files };
