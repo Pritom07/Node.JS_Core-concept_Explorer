@@ -1,4 +1,4 @@
-# Node.JS_FileSystem_Explorer
+# Node.JS_Core-concept_Explorer
 
 This repository contains two core Node.js practice modules:
 
