@@ -123,8 +123,8 @@ https://nodejs.org/en/download
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/Pritom07/Node.JS_FileSystem_Explorer.git
-cd Node.JS_FileSystem_Explorer\File_Organizer_using_CLI
+git clone https://github.com/Pritom07/Node.JS_Core-concept_Explorer.git
+cd Node.JS_Core-concept_Explorer\File_Organizer_using_CLI
 ```
 
 ### Run the Script
